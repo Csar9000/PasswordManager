@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/btn_back_from_add_bank"
+            app:layout_constraintStart_toEndOf="@+id/btn_back_from_add_bank">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите описание карты"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_desc"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/textView34"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите номер карты"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_cardNum"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_desc"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_cardNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView36"
+                app:layout_constraintTop_toBottomOf="@+id/textView35"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите название банка"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_bankName"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_cardNum"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_bankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView37"
+                app:layout_constraintTop_toBottomOf="@+id/textView36"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите пароль"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_password"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_bankName"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView37"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите дату окончания срока действия"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_DatStr"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_password"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_DatStr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#020202"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView39"
+                app:layout_constraintTop_toBottomOf="@+id/textView38"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp" />
+
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите CVV"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/et_add_bankcard_CVV"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_DatStr"
+                tools:layout_editor_absoluteX="176dp" />
+
+            <EditText
+                android:id="@+id/et_add_bankcard_CVV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+                app:layout_constraintTop_toBottomOf="@+id/textView39"
+                tools:layout_editor_absoluteX="100dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_CVV"
+                tools:layout_editor_absoluteX="0dp">
+
+                <Button
+                    android:id="@+id/btn_back_from_add_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Отмена"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_bank_add"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="206dp" />
+
+                <Button
+                    android:id="@+id/btn_bank_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Добавить"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_back_from_add_bank"
+                    app:layout_constraintTop_toBottomOf="@+id/et_add_bankcard_Date"
+                    tools:layout_conversion_absoluteHeight="48dp"
+                    tools:layout_conversion_absoluteWidth="206dp" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

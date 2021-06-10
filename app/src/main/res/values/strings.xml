@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="message_dialog_delete">Вы уверены что хотите удалить эту заметку?</string>
+    <string name="title_dialog_delete">Подтвердите действие</string>
+    <string name="text_button_confirm">Подвердить</string>
+    <string name="text_button_cancel">Отменить</string>
+
+
+    <string name="message_success">Запись успешно изменена!</string>
+    <string name="message_fail_update">Обновление не удалось! Такой офис уже есть!</string>
+    <string name="message_warning">Пароль в данном случае является числом!</string>
+
+    <string name="tv_owner_bicycle_add">Введите владельца велосипеда</string>
+    <string name="tv_password_bicycle_add">Введите пароль от велосипеда</string>
+    <string name="tv_description_bicycle_add">Введите небольшой комментарий, если необходимо</string>
+
+    <string name="tv_owner_alarm_add">Введите номер кабинета</string>
+    <string name="tv_password_alarm_add">Введите пароль от кабинета</string>
+    <string name="tv_description_alarm_add">Введите инструкцию по сигнализации</string>
+
+    <string name="settings_Title">Настройки</string>
+
+
+    <string name="k1">1</string>
+    <string name="k2">2</string>
+    <string name="k3">3</string>
+    <string name="k4">4</string>
+    <string name="k5">5</string>
+    <string name="k6">6</string>
+    <string name="k7">7</string>
+    <string name="k8">8</string>
+    <string name="k9">9</string>
+    <string name="k0">0</string>
+
+    <string name="CLEAR">CLEAR</string>
+    <string name="back">←</string>
+    <string name="msg_pin_length_err">\"Пароль состоит из 6 цифр!\"</string>
+</resources>
